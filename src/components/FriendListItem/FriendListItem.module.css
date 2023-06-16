@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+  border: 1px solid rgba(46, 47, 66, 0.08);
+  border-radius: 3px;
+}
+
+.statusRed,
+.statusGreen {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.statusRed {
+  background-color: #ff0000;
+}
+
+.statusGreen {
+  background-color: #008000;
+}
+
+.avatar {
+  border: 1px solid rgba(46, 47, 66, 0.08);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
